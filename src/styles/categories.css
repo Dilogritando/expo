@@ -1,0 +1,22 @@
+.awards__categories__titles{
+    font-size: 18px;
+    font-weight: 800;
+}
+legend {
+    font-size: 25px;
+    font-weight: 800;
+}
+option{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+}
+button {
+    font-size: 25px;
+    font-weight: 800;
+}
+.warning{
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+}
