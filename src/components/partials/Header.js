@@ -1,6 +1,5 @@
 import logoexpo from '../../assets/logoexpo.svg'
 import '../../styles/header.scss';
-
 export default function Header () {
     return (
         <header>

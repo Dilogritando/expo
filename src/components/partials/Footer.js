@@ -2,7 +2,6 @@ import USACBDLOGO from "../../assets/logoexpo_dark.svg"
 import '../../styles/footer.scss'
 export default function Footer () {
     return (
-        <>
         <footer id="footer">
             <div className="more">
                 <ul className="upcoming">
@@ -76,6 +75,5 @@ export default function Footer () {
                     <figcaption>USA CBD Expo Logo</figcaption>
             </figure>
         </footer>
-        </>
     )
 }
