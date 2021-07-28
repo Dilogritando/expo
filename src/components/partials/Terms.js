@@ -23,7 +23,7 @@ export default function Terms () {
                 <div className="terms__box--inner">
                     <ul>
                         <li>
-                            <div class="terms__box__items--container">
+                            <div className="terms__box__items--container">
                                 <p className="terms__box__items">
                                     NOMINATION
                                 </p>
@@ -33,14 +33,14 @@ export default function Terms () {
                             </div>
                         </li>
                         <li>
-                            <div class="terms__box__items--container">
+                            <div className="terms__box__items--container">
                                 <p className="terms__box__items">
                                     DUPLICATION
                                 </p>
                                 <p className="terms__box__items--desc">
                                 All products must be different and each product can <span>ONLY</span> be in one category:
                                 </p>
-                                <p class="duplication_conditions">
+                                <p className="duplication_conditions">
                                     Product X <span> CAN </span> be nominated in <span>EITHER</span> Best CBD Edible <span>OR</span> Best CBD Flower.
                                 </p>
                                 <p className="duplication_conditions">
@@ -49,7 +49,7 @@ export default function Terms () {
                             </div>
                         </li>
                         <li>
-                            <div class="terms__box__items--container">
+                            <div className="terms__box__items--container">
                                 <p className="terms__box__items">
                                     RESTRICTION
                                 </p>
@@ -59,7 +59,7 @@ export default function Terms () {
                             </div>
                         </li>
                         <li>
-                            <div class="terms__box__items--container">
+                            <div className="terms__box__items--container">
                                 <p className="terms__box__items">
                                     QUALIFICATION
                                 </p>
@@ -69,7 +69,7 @@ export default function Terms () {
                             </div>
                         </li>
                         <li>
-                            <div class="terms__box__items--container">
+                            <div className="terms__box__items--container">
                                 <p className="terms__box__items">
                                     TIME
                                 </p>
@@ -79,7 +79,7 @@ export default function Terms () {
                             </div>
                         </li>
                         <li>
-                            <div class="terms__box__items--container">
+                            <div className="terms__box__items--container">
                                 <p className="terms__box__items">
                                     VOTES
                                 </p>

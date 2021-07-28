@@ -10,6 +10,9 @@ header{
          font-size: 18;
         font-weight: bold;
     }
+    @media screen and (max-device-width: 600px){
+        display: none;
+    }
     .header{
         &__logo{
             width: 20%;

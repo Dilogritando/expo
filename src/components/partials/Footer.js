@@ -56,7 +56,7 @@ export default function Footer () {
                         <a href="https://usacbdexpo.com/press/">PRESS</a>
                     </li>
                 </ul>
-                <p class="about">ABOUT US</p>
+                <p className="about">ABOUT US</p>
                 <ul className="resources">
                     <li className="more__title">CONTACT US</li>
                     <li className="more__items">

@@ -4,17 +4,29 @@
     padding: 0;
     display: flex;
     flex-direction: row;
+    @media screen and (max-device-width: 600px){
+        flex-direction: column;
+        text-align: center;
+    }
     &__main{
         margin: 0 5%;
         display: flex;
         flex-direction: row;
         align-items: center;
+        @media screen and (max-device-width: 600px){
+            margin: 0;
+            padding: 0;
+        }
         figure {
             width: 45%;
             margin: 0 0px 0 0;
             padding: 0;
             #awardsLogo{
                 height: 327px;
+                @media screen and (max-device-width: 600px){
+                    margin: 7% ​auto 2% auto;
+                    width: 100%;
+                }
             }
             & figcaption {
                 display: none;
@@ -29,6 +41,9 @@
             flex-direction: row;
             flex-wrap: nowrap;
             justify-content: center;
+            @media screen and (max-device-width: 600px){
+                margin: 0;
+            }
         }
     }
     &__countdown{
@@ -39,38 +54,16 @@
         top: 449px;
         right: 253px;
         text-align: center;
-        &__text{
-            font-size: 30px;
-            font-weight: bold;
-        }
-    }
-}
-
-@media screen and (max-device-width: 1023px) {
-    .hero{
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        &__main{
-            margin: 0;
-            padding: 0;
-            & figcaption {
-                display: none;
-            }
-            &--text{
-                margin: 0;
-                padding: 0;
-            }
-        }
-        &__countdown{
-            font-size: 12px;
+        @media screen and (max-device-width: 600px){
             margin: 7% auto;
             padding: 0;
         }
-    }
-    #awardsLogo{
-        margin: 7% ​auto 2% auto;
-        width: 100%;
+        &__text{
+            font-size: 30px;
+            font-weight: bold;
+            @media screen and (max-device-width: 600px){
+                font-size: 12px;
+            }
+        }
     }
 }

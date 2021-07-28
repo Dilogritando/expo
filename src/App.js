@@ -6,12 +6,10 @@ import Footer from './components/partials/Footer';
 import './styles/general.scss';
 
 function App() {
-  /* const show = true */
   return (
     <div className="body">
       <Header />
       <Hero />
-   {/*  {show && (<div>Contenidito</div>)} */}
       <Terms />
       <Categories />
       <Footer />

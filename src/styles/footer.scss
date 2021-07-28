@@ -4,6 +4,9 @@ footer{
     display: flex;
     flex-direction: column;
     margin: -140px 0;
+    @media screen and (max-device-width: 600px){
+        display: none;
+    }
     .more{
         display: flex;
         flex-direction: row;
