@@ -1,0 +1,102 @@
+.terms {
+    width: 100%;
+    margin: 150px auto;
+    padding: 0;
+    &__list{
+        margin: 0;
+        padding: 70px 10%;
+        background-color: #c7bd6f6c;
+        height: 250px;
+        &__proper{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+            padding: 0;
+            &--numbers{
+                font-size: 84px;
+                font-weight: 800;
+                margin: 0 3px 0 0;
+            }
+            li{
+                display: flex;
+                flex-direction: row;
+                h3{
+
+                }
+            }
+        }
+    }
+    &__numbers{
+        font-size: 84px;
+        font-weight: 800;
+    }
+    &__box{
+        border-radius: 15px;
+        background-color: white;
+        text-align: center;
+        padding: 92px;
+        margin: 70px 10%;
+        position: relative;
+        top: -243px;
+        h2, p, span{
+            color: black;
+        }
+        h2{
+            padding: 0;
+            margin: 0 0 58px 0;
+        }
+        &--inner {
+            height: 368px;
+            width: 1066px;
+            ul {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                height: 368px;
+                width: 1066px;
+                padding: 0;
+                li{
+                    display: flex;
+                    flex-direction: row;
+                    width: 500px;
+                    margin: 0 0 18px 0;
+                    padding: 0;
+                    &::before{
+                        content: url("../assets/check-icon.png");
+                        margin: 3px 25px 0 0;
+                    }
+                }
+
+            }
+        }
+        &__items{
+            font-weight: 900;
+            color: #C7BD6F !important;
+            padding: 0;
+            margin: 0 0 3px 0;
+            &--desc{
+                font-weight: 500;
+                padding: 0;
+                margin: 0;
+                & span {
+                    font-weight: bold;
+                }
+            }
+            &--container{
+                text-align: left;
+                .duplication_conditions{
+                    font-size: 18;
+                    font-weight: 500;
+                    span {
+                        font-weight: bold;
+                    }
+                    &::before {
+                        content: "■";
+                        color: #B9C279;
+                    }
+                }
+            }
+        }
+    }
+}

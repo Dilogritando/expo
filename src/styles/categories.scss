@@ -1,0 +1,122 @@
+.categories{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -300px;
+    display: flex;
+    flex-direction: column;
+    &__types{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: #0a211183;
+        h2 {
+            margin: 0;
+            padding: 20px 0 0 0;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+        }
+        .awards__categories{
+            &__images {
+                height: 98px;
+                width: 120.39px;
+            }
+            &__titles{
+                font-size: 18px;
+                font-weight: 800;
+            }
+        }
+    }
+    form {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        fieldset{
+            width: 90%;
+            height: 202px;
+            background-color: white;
+            border-radius: 15px;
+            padding: 0;
+            margin: 25px 0;
+            border: none;
+            legend {
+                height: 68px;
+                width: 278px;
+                font-size: 25px;
+                font-weight: 800;
+                border-radius: 15px;
+                background-color: #C7BD6F;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-transform: uppercase;
+                position: relative;
+                top: 45%;
+                right: 4%;
+            }
+            .nomination, .contact {
+                padding: 0;
+                margin: 40px 20px 66px 270px;
+                width: 70%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                position: relative;
+                top: -23px;
+                select, input{
+                    background-color: #EFEFEF;
+                    color: #BCBCBC;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-style: italic;
+                    border-radius: 15px;
+                    height: 78px;
+                    border: none;
+                    margin: 0;
+                    padding: 0px 0 0px 25px;
+                }
+            }
+            .nomination {
+                select, input {
+                    width: 45%;
+                }
+            }
+            .contact {
+                input {
+                    width: 25%;
+                }
+            }
+        }
+        option{
+            font-size: 18px;
+            font-weight: 500;
+            font-style: italic;
+        }
+        #button {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 25px;
+            font-weight: 800;
+            color: white;
+            width: 278px;
+            height: 68px;
+            background-color: #38D430;
+            border-radius: 15px;
+            align-self: center;
+            border: none;
+        }
+    }
+}
+
+.warning{
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+}

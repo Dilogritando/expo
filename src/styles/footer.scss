@@ -1,0 +1,38 @@
+footer{
+    background-color: #707070;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: -140px 0;
+    .more{
+        display: flex;
+        flex-direction: row;
+        ul {
+            display: flex;
+            flex-direction: column;
+            li{
+                padding: 0;
+                margin: 0 0 15px 0;
+            }
+        }
+        &__title{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        &__items{
+            a{
+                font-size: 18px;
+                font-weight: 500;
+                text-decoration: none;
+                color: white;
+                &:hover{
+                    color: #38D430;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+    figure{
+        align-self: flex-end;
+    }
+}

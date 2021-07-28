@@ -1,20 +1,20 @@
-import logoexpo from '../../../public/assets/logoexpo'
-import '../../styles/header.css';
+import logoexpo from '../../assets/logoexpo.svg'
+import '../../styles/header.scss';
 
 export default function Header () {
     return (
         <header>
-            <div className="mainLogo">
-                <img src={logoexpo} alt="Logo USA CBD EXPO" id="LogoExpo" />
+            <div className="header__logo">
+                <img className="header__logo__proper" src={logoexpo} alt="Logo USA CBD EXPO" id="header__logo__proper" />
             </div>
-            <nav>
-                <ul>
-                    <li> <a href="#"> UPCOMING SHOWS </a></li>
-                    <li> <a href="#"> BE A PART OF IT </a></li>
-                    <li> <a href="#"> PAST SHOWS </a></li>
-                    <li> <a href="#"> RESOURCES </a></li>
-                    <li> <a href="#"> ABOUT US </a></li>
-                    <li> <a href="#"> CONTACT US </a></li>
+            <nav className="header__nav">
+                <ul className="header__nav__list">
+                    <li> <a href="#footer"> UPCOMING SHOWS </a></li>
+                    <li> <a href="#footer"> BE A PART OF IT </a></li>
+                    <li> <a href="#footer"> PAST SHOWS </a></li>
+                    <li> <a href="#footer"> RESOURCES </a></li>
+                    <li> <a href="#footer"> ABOUT US </a></li>
+                    <li> <a href="#footer"> CONTACT US </a></li>
                 </ul>
             </nav>
         </header>
