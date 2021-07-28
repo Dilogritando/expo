@@ -42,6 +42,9 @@ header{
                 width: 100%;
                 flex-wrap: nowrap;
                 justify-content: space-between;
+                li{
+                    width: 16%;
+                }
             }
         }
     }
