@@ -1,4 +1,5 @@
 footer{
+    width: 100%;
     background-color: #707070;
     color: white;
     display: flex;
@@ -8,14 +9,28 @@ footer{
         display: none;
     }
     .more{
-        display: flex;
-        flex-direction: row;
+        @media screen and (min-device-width: 601px){
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            height: 550px;
+        }
+        @media screen and (min-device-width: 1024px){
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            height: 70%;
+            margin: 3% auto;
+        }
         ul {
             display: flex;
             flex-direction: column;
             li{
                 padding: 0;
                 margin: 0 0 15px 0;
+                width: auto;
             }
         }
         &__title{
@@ -32,6 +47,11 @@ footer{
                     color: #38D430;
                     font-weight: 800;
                 }
+            }
+        }
+        .about{
+            @media screen and (max-device-width: 1023px){
+                margin: 0 0 0px 40px;
             }
         }
     }

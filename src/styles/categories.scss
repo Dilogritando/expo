@@ -24,10 +24,11 @@
         ul{
             display: flex;
             flex-direction: row;
-            width: 100%;
+            width: 96%;
             padding: 0;
             justify-content: space-between;
             align-items: flex-start;
+            align-self: center;
         }
         .awards__categories{
             padding: 0;
@@ -42,9 +43,8 @@
                 align-content: center;
                 align-items: center;
                 overflow: hidden;
-                &__images {
-                    height: 98px;
-                    width: 120.39px;
+                img {
+                    width: 100%;
                 }
                 &__titles{
                     font-size: 18px;
