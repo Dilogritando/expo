@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "//dilogritando.github.io/expo/static/css/main.56f83e08.chunk.css",
+    "main.js": "//dilogritando.github.io/expo/static/js/main.2017b5e1.chunk.js",
+    "main.js.map": "//dilogritando.github.io/expo/static/js/main.2017b5e1.chunk.js.map",
+    "runtime-main.js": "//dilogritando.github.io/expo/static/js/runtime-main.10e0f3c7.js",
+    "runtime-main.js.map": "//dilogritando.github.io/expo/static/js/runtime-main.10e0f3c7.js.map",
+    "static/js/2.cb02156c.chunk.js": "//dilogritando.github.io/expo/static/js/2.cb02156c.chunk.js",
+    "static/js/2.cb02156c.chunk.js.map": "//dilogritando.github.io/expo/static/js/2.cb02156c.chunk.js.map",
+    "index.html": "//dilogritando.github.io/expo/index.html",
+    "static/css/main.56f83e08.chunk.css.map": "//dilogritando.github.io/expo/static/css/main.56f83e08.chunk.css.map",
+    "static/js/2.cb02156c.chunk.js.LICENSE.txt": "//dilogritando.github.io/expo/static/js/2.cb02156c.chunk.js.LICENSE.txt",
+    "static/media/awards-logo.89da5713.png": "//dilogritando.github.io/expo/static/media/awards-logo.89da5713.png",
+    "static/media/general.scss": "//dilogritando.github.io/expo/static/media/background.3dddb486.jpg",
+    "static/media/best-cbd-tincture-icon.89f02b19.png": "//dilogritando.github.io/expo/static/media/best-cbd-tincture-icon.89f02b19.png",
+    "static/media/logoexpo.912cfb90.svg": "//dilogritando.github.io/expo/static/media/logoexpo.912cfb90.svg",
+    "static/media/logoexpo_dark.9278dd84.svg": "//dilogritando.github.io/expo/static/media/logoexpo_dark.9278dd84.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10e0f3c7.js",
+    "static/js/2.cb02156c.chunk.js",
+    "static/css/main.56f83e08.chunk.css",
+    "static/js/main.2017b5e1.chunk.js"
+  ]
+}
