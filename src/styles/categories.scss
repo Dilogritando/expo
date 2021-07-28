@@ -10,13 +10,17 @@
         display: none;
     }
     &__types{
+        height: 300px;
         margin: 0;
-        padding: 0;
+        padding: 3%;
         text-align: center;
         background-color: #0a211183;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+        @media screen and (min-device-width: 1024px){
+            height: 340px;
+        }
         h2 {
             margin: 0;
             padding: 20px 0 0 0;
@@ -25,33 +29,61 @@
             display: flex;
             flex-direction: row;
             width: 96%;
+            height: 62%;
             padding: 0;
             justify-content: space-between;
             align-items: flex-start;
             align-self: center;
+            margin: 1% 0;
+            @media screen and (min-device-width: 1024px){
+                height: 41%;
+                width: 80%;
+                justify-content: center;
+            }
         }
         .awards__categories{
             padding: 0;
             margin: 0;
             width: 12%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            @media screen and (min-device-width: 1024px){
+                margin: 0 1%;
+                min-height: 224px;
+            }
             figure {
+                height: 100%;
                 margin: 0;
                 padding: 0;
                 display: flex;
                 flex-direction: column;
                 flex-wrap: nowrap;
-                align-content: center;
+                justify-content: space-between;
                 align-items: center;
                 overflow: hidden;
                 img {
-                    width: 100%;
-                }
-                &__titles{
-                    font-size: 18px;
-                    font-weight: 800;
+                    width: auto;
+                    margin: 0;
+                    padding: 0;
+                    max-height: 75px;
+                    @media screen and (min-device-width: 1024px){
+                        max-height: 48%;
+                    }
                 }
             }
-
+            &__titles{
+                font-size: 12px;
+                font-weight: 800;
+                margin: 0;
+                padding: 0;
+                min-height: 105px;
+                @media screen and (min-device-width: 1024px){
+                    min-height: 105px;
+                    font-size: 18px;
+                }
+            }
         }
     }
     form {
@@ -59,14 +91,22 @@
         display: flex;
         flex-direction: column;
         align-self: center;
+        margin: -12% 0 0 0;
+        @media screen and (min-device-width: 1024px){
+            margin: -9% 0 0 0;
+            width: 82%;
+        }
         fieldset{
-            width: 90%;
-            height: 202px;
+            width: 100%;
+            height: auto;
             background-color: white;
             border-radius: 15px;
             padding: 0;
             margin: 25px 0;
             border: none;
+            @media screen and (min-device-width: 1024px){
+                height: 202px;
+            }
             legend {
                 height: 68px;
                 width: 278px;
@@ -83,17 +123,25 @@
                 position: relative;
                 top: 45%;
                 right: 4%;
+                @media screen and (min-device-width: 1024px){
+                    right: 6%;
+                }
             }
             .nomination, .contact {
                 padding: 0;
-                margin: 40px 20px 66px 270px;
-                width: 70%;
+                margin: 5% 0 1% 34%;
+                width: auto;
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 flex-wrap: nowrap;
-                justify-content: space-between;
+                justify-content: flex-start;
                 position: relative;
                 top: -23px;
+                @media screen and (min-device-width: 1024px){
+                    margin: 5% 0 1% 30%;
+                    width: 64%;
+                    flex-direction: row;
+                }
                 select, input{
                     background-color: #EFEFEF;
                     color: #BCBCBC;
@@ -102,20 +150,37 @@
                     font-weight: 500;
                     font-style: italic;
                     border-radius: 15px;
-                    height: 78px;
+                    height: 75px;
                     border: none;
-                    margin: 0;
+                    margin: 1% 0 3% 0;
                     padding: 0px 0 0px 25px;
+                    @media screen and (min-device-width: 1024px){
+                        margin: 0;
+                    }
                 }
             }
             .nomination {
+                @media screen and (min-device-width: 1024px){
+                    width: 70%;
+                    margin: 5% 0 1% 28%;
+                }
                 select, input {
-                    width: 45%;
+                    width: auto;
+                    margin: 0 7% 4% 0;
+                    @media screen and (min-device-width: 1024px){
+                        width: 50%;
+                        margin: 0 1% 0 0;
+                    }
                 }
             }
             .contact {
+                justify-content: space-between;
                 input {
-                    width: 25%;
+                    width: 87%;
+                    @media screen and (min-device-width: 1024px){
+                        width: 28%;
+                        /* margin: 3% 0 1% 26%; */
+                    }
                 }
             }
         }

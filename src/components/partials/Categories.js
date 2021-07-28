@@ -72,9 +72,16 @@ export default function Categories () {
                     <div className="nomination">
                         <select name="nomination_categories" id="">
                             <option value="placeholder">Select the category</option>
-                            <option value=""></option>
+                            <option value="vape">Best CBD Vape</option>
+                            <option value="edible">Best CBD Edible</option>
+                            <option value="topical">Best CBD Topical</option>
+                            <option value="tincture">Best CBD Tincture</option>
+                            <option value="flower">Best CBD Flower</option>
+                            <option value="pet">Best CBD Pet Product</option>
+                            <option value="innovative">Most innovative CBD Product</option>
+                            <option value="branding">Best Overall Branding and Marketing</option>
                         </select>
-                        <input type="text" id="" name=""></input>
+                        <input type="text" id="" name="nominee1" placeholder="Write the product name here"></input>
                     </div>
                 </fieldset>
                 <fieldset>
@@ -82,19 +89,34 @@ export default function Categories () {
                     <div className="nomination">
                         <select name="nomination_categories" id="">
                             <option value="placeholder">Select the category</option>
-                            <option value=""></option>
+                            <option value="placeholder">Select the category</option>
+                            <option value="vape">Best CBD Vape</option>
+                            <option value="edible">Best CBD Edible</option>
+                            <option value="topical">Best CBD Topical</option>
+                            <option value="tincture">Best CBD Tincture</option>
+                            <option value="flower">Best CBD Flower</option>
+                            <option value="pet">Best CBD Pet Product</option>
+                            <option value="innovative">Most innovative CBD Product</option>
+                            <option value="branding">Best Overall Branding and Marketing</option>
                         </select>
-                        <input type="text" id="" name=""></input>
+                        <input type="text" id="" name="nominee2" placeholder="Write the product name here"></input>
                     </div>
                 </fieldset>
                 <fieldset>
                     <legend>Nomination #3</legend>
                     <div className="nomination">
                         <select name="nomination_categories" id="">
-                            <option value="placeholder">Select the category</option>
-                            <option value=""></option>
+                        <option value="placeholder">Select the category</option>
+                            <option value="vape">Best CBD Vape</option>
+                            <option value="edible">Best CBD Edible</option>
+                            <option value="topical">Best CBD Topical</option>
+                            <option value="tincture">Best CBD Tincture</option>
+                            <option value="flower">Best CBD Flower</option>
+                            <option value="pet">Best CBD Pet Product</option>
+                            <option value="innovative">Most innovative CBD Product</option>
+                            <option value="branding">Best Overall Branding and Marketing</option>
                         </select>
-                        <input type="text" id="" name=""></input>
+                        <input type="text" id="" name="nominee3" placeholder="Write the product name here"></input>
                     </div>
                 </fieldset>
                 <fieldset>
