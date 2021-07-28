@@ -1,5 +1,5 @@
 import CBDAwards from '../../assets/awards-logo.png'
-/* import Countdown from '../../components/partials/Countdown' */
+import Countdown from '../../components/partials/Countdown'
 import '../../styles/hero.scss'
 
 export default function Hero () {
@@ -20,9 +20,7 @@ export default function Hero () {
             </div>
             <div className="hero__countdown">
                 <p>NOMINATION ENDS IN</p>
-                <div>
-                    {/* <Countdown /> */}
-                </div>
+                <Countdown />
             </div>
         </div>
     )

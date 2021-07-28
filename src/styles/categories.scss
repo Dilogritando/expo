@@ -128,8 +128,8 @@
                 }
             }
             .nomination, .contact {
-                padding: 0;
-                margin: 5% 0 1% 34%;
+                padding: 3%;
+                margin: 10% 0 1% 34%;
                 width: auto;
                 display: flex;
                 flex-direction: column;
@@ -138,7 +138,8 @@
                 position: relative;
                 top: -23px;
                 @media screen and (min-device-width: 1024px){
-                    margin: 5% 0 1% 30%;
+                    padding: 0;
+                    margin: 3% 0 1% 30%;
                     width: 64%;
                     flex-direction: row;
                 }
@@ -158,11 +159,26 @@
                         margin: 0;
                     }
                 }
+                .warning {
+                    color: red;
+                    font-size: 12px;
+                    font-weight: 500;
+                    font-style: italic;
+                    margin: 0;
+                    padding: 0;
+                    position: absolute;
+                    top: -20px;
+                    right: 40px;
+                    @media screen and (min-device-width: 1024px){
+                        top: -20px;
+                        right: 0;
+                    }
+                }
             }
             .nomination {
                 @media screen and (min-device-width: 1024px){
                     width: 70%;
-                    margin: 5% 0 1% 28%;
+                    margin: 3% 0 1% 28%;
                 }
                 select, input {
                     width: auto;
@@ -189,6 +205,19 @@
             font-weight: 500;
             font-style: italic;
         }
+        .ast{
+            color: red;
+            padding: 0;
+            margin: 0;
+            font-size: 1em;
+            position: relative;
+            left: 20px;
+            top: 35px;
+            @media screen and (min-device-width: 1024px){
+                left: 3%;
+                top: 12px;
+            }
+        }
         #button {
             font-family: 'Montserrat', sans-serif;
             font-size: 25px;
@@ -200,12 +229,7 @@
             border-radius: 15px;
             align-self: center;
             border: none;
+            cursor: pointer;
         }
     }
-}
-
-.warning{
-    font-size: 12px;
-    font-weight: 500;
-    font-style: italic;
 }
