@@ -11,7 +11,8 @@ header{
         color: white;
         font-size: 0.6em;
         font-weight: bold;
-        @media screen and (min-device-width: 1024px){
+        width: 100%;
+        @media screen and (min-device-width: 1040px){
             font-size: 1em;
         }
     }
@@ -28,7 +29,7 @@ header{
             }
         }
         &__nav{
-            width: 77%;
+            width: 80%;
             display: flex;
             flex-direction: row;
             margin: 0;
@@ -38,12 +39,25 @@ header{
                 display: flex;
                 flex-direction: row;
                 margin: 0;
-                padding: 0 0 0 26px;
+                padding: 0 0 0 0px;
                 width: 100%;
                 flex-wrap: nowrap;
                 justify-content: space-between;
+                @media screen and (min-device-width: 1023px){
+                    padding: 0 0 0 26px;
+                }
                 li{
-                    width: 16%;
+                    width: auto;
+                    margin: 0;
+                    padding: 0;
+                    text-align: center;
+                    @media screen and (min-device-width: 1023px){
+                        width: auto;
+                    }
+                    a:hover{
+                        font-size: 1.5em;
+                        color: chartreuse;
+                    }
                 }
             }
         }

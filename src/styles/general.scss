@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body{
     background-image: url("../assets/background.jpg");
     width: 100%;
@@ -15,11 +21,11 @@ h2 {
     font-weight: 800;
 }
 h3 {
-    font-size: 23px;
+    font-size: 1em;
     font-weight: bold;
 }
 p, a {
-    font-size: 18;
+    font-size: 18px;
     font-weight: bold;
 }
 li {

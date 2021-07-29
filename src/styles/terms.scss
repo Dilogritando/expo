@@ -12,7 +12,7 @@
     &__list{
         width: 100%;
         margin: 0;
-        padding: 70px 0;
+        padding: 20px 0;
         background-color: #c7bd6f6c;
         height: 250px;
         display: flex;
@@ -49,18 +49,20 @@
         }
     }
     &__box{
-        width: 60%;
+        width: 78%;
         border-radius: 15px;
         background-color: white;
         text-align: center;
-        padding: 10%;
+        padding: 6%;
         margin: 18% auto;
         position: relative;
-        top: -243px;
+        top: -160px;
+        @media screen and (min-device-width: 600px){
+            margin: 10% auto;
+        }
         @media screen and (min-device-width: 1024px){
             width: 80%;
             padding: 7%;
-            margin: 10% auto;
         }
         h2, p, span{
             color: black;
@@ -70,17 +72,21 @@
             margin: 0 0 6% 0;
         }
         &--inner {
+            width: 100%;
             height: auto;
+            box-sizing: unset;
             ul {
+                width: 100%;
+                height: auto;
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
-                height: auto;
-                width: 100%;
+                align-content: center;
                 padding: 0;
                 margin: 0;
+                box-sizing: unset;
                 @media screen and (min-device-width: 1024px){
-                    height: 380px;
+                    height: 30em;
                 }
                 li{
                     display: flex;
@@ -89,7 +95,7 @@
                     margin: 0 0 4% 0;
                     padding: 0;
                     @media screen and (min-device-width: 1024px) {
-                        width: 52%;
+                        width: 48%;
                         margin: 0 0 2% 0;
                     }
                     &::before{
@@ -97,7 +103,6 @@
                         margin: 3px 25px 0 0;
                     }
                 }
-
             }
         }
         &__items{
@@ -121,8 +126,6 @@
                 .duplication_conditions{
                     font-size: 18;
                     font-weight: 500;
-                    /* margin: 0;
-                    padding: 0; */
                     span {
                         font-weight: bold;
                     }
