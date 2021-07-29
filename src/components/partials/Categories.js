@@ -6,6 +6,7 @@ import BestCBDFlower from "../../assets/best-cbd-flower-icon.png"
 import BestCBDPet from "../../assets/best-cbd-pet-product-icon.png"
 import BestCBDProduct from "../../assets/most-innovative-cbd-product-icon.png"
 import BestCBDBranding from "../../assets/best-overall-branding-and-marketing-icon.png"
+import Nomination from "../../components/partials/Nomination"
 import '../../styles/categories.scss'
 
 export default function Categories () {
@@ -67,62 +68,9 @@ export default function Categories () {
                 </ul>
             </div>
             <form action="">
-                <fieldset>
-                    <legend>Nomination #1</legend>
-                    <div className="nomination">
-                        <span className="ast">*</span>
-                        <select name="nomination_categories" id="" required>
-                            <option value="placeholder">Select the category</option>
-                            <option value="vape">Best CBD Vape</option>
-                            <option value="edible">Best CBD Edible</option>
-                            <option value="topical">Best CBD Topical</option>
-                            <option value="tincture">Best CBD Tincture</option>
-                            <option value="flower">Best CBD Flower</option>
-                            <option value="pet">Best CBD Pet Product</option>
-                            <option value="innovative">Most innovative CBD Product</option>
-                            <option value="branding">Best Overall Branding and Marketing</option>
-                        </select>
-                        <span className="warning">*Votes for duplicate products will not be considered</span>
-                        <input type="text" id="" name="nominee1" placeholder="Write the product name here" required></input>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend>Nomination #2</legend>
-                    <div className="nomination">
-                        <select name="nomination_categories" id="">
-                            <option value="placeholder">Select the category</option>
-                            <option value="placeholder">Select the category</option>
-                            <option value="vape">Best CBD Vape</option>
-                            <option value="edible">Best CBD Edible</option>
-                            <option value="topical">Best CBD Topical</option>
-                            <option value="tincture">Best CBD Tincture</option>
-                            <option value="flower">Best CBD Flower</option>
-                            <option value="pet">Best CBD Pet Product</option>
-                            <option value="innovative">Most innovative CBD Product</option>
-                            <option value="branding">Best Overall Branding and Marketing</option>
-                        </select>
-                        <span className="warning">*Votes for duplicate products will not be considered</span>
-                        <input type="text" id="" name="nominee2" placeholder="Write the product name here"></input>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend>Nomination #3</legend>
-                    <div className="nomination">
-                        <select name="nomination_categories" id="">
-                        <option value="placeholder">Select the category</option>
-                            <option value="vape">Best CBD Vape</option>
-                            <option value="edible">Best CBD Edible</option>
-                            <option value="topical">Best CBD Topical</option>
-                            <option value="tincture">Best CBD Tincture</option>
-                            <option value="flower">Best CBD Flower</option>
-                            <option value="pet">Best CBD Pet Product</option>
-                            <option value="innovative">Most innovative CBD Product</option>
-                            <option value="branding">Best Overall Branding and Marketing</option>
-                        </select>
-                        <span className="warning">*Votes for duplicate products will not be considered</span>
-                        <input type="text" id="" name="nominee3" placeholder="Write the product name here"></input>
-                    </div>
-                </fieldset>
+                <Nomination title="Nomination #1"/>
+                <Nomination title="Nomination #2"/>
+                <Nomination title="Nomination #3"/>
                 <fieldset>
                     <legend> CONTACT INFO </legend>
                     <div className="contact">
@@ -133,7 +81,6 @@ export default function Categories () {
                         <span className="ast">*</span>
                         <input type="email" id="" name="Email" placeholder="Email" required></input>
                     </div>
-
                 </fieldset>
                 <input type="submit" value="SUBMIT" id="button"></input>
             </form>

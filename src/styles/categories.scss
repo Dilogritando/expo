@@ -91,7 +91,7 @@
         display: flex;
         flex-direction: column;
         align-self: center;
-        margin: -12% 0 0 0;
+        margin: -5% 0 0 0;
         @media screen and (min-device-width: 1024px){
             margin: -9% 0 0 0;
             width: 82%;
@@ -102,10 +102,13 @@
             background-color: white;
             border-radius: 15px;
             padding: 0;
-            margin: 25px 0;
+            margin: 1% 0;
             border: none;
             @media screen and (min-device-width: 1024px){
                 height: 202px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
             }
             legend {
                 height: 68px;
@@ -121,7 +124,7 @@
                 justify-content: center;
                 text-transform: uppercase;
                 position: relative;
-                top: 45%;
+                top: 37%;
                 right: 4%;
                 @media screen and (min-device-width: 1024px){
                     right: 6%;
@@ -145,7 +148,6 @@
                 }
                 select, input{
                     background-color: #EFEFEF;
-                    color: #505050;
                     font-family: 'Montserrat', sans-serif;
                     font-size: 1em;
                     font-weight: 500;
@@ -162,6 +164,9 @@
                         margin: 0;
                     }
                 }
+                input {
+                    color: #505050;
+                }
                 .warning {
                     color: red;
                     font-size: 12px;
@@ -170,8 +175,8 @@
                     margin: 0;
                     padding: 0;
                     position: absolute;
-                    top: -3px;
-                    right: 40px;
+                    top: 17px;
+                    right: 91px;
                     @media screen and (min-device-width: 1024px){
                         top: -20px;
                         right: 0;
@@ -179,10 +184,11 @@
                 }
             }
             .nomination {
-                margin: 10% 0 1% 3%;
+                margin: 2% 0 0% 3%;
+                position: relative;
                 @media screen and (min-device-width: 1024px){
-                    width: 70%;
-                    margin: 5.5% 0 1% 29%;
+                    width: 66%;
+                    margin: 0 0 0% 29%;
                 }
                 select, input {
                     width: auto;
@@ -192,14 +198,31 @@
                         margin: 0 1% 0 0;
                     }
                 }
+                select {
+                    color:#BCBCBC;
+                    -webkit-appearance: none;
+                    appearance: none;
+                }
+                &::after{
+                    content: "▼";
+                    color: darkgray;
+                    font-size: 1rem;
+                    top: 26.3%;
+                    right: 13%;
+                    position: absolute;
+                    @media screen and (min-device-width: 1024px){
+                        top: 30%;
+                        right: 54%;
+                    }
+                }
             }
             .contact {
                 justify-content: space-between;
                 width: 100%;
                 margin: 0% 0 0 3%;
                 @media screen and (min-device-width: 1024px){
-                    margin: 5.5% 0 1% 26%;
-                    width: 70%;
+                    margin: 0 0 0% 29%;
+                    width: 66%;
                 }
                 input {
                     width: 87%;

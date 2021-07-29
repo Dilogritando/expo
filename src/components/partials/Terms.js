@@ -40,12 +40,14 @@ export default function Terms () {
                                 <p className="terms__box__items--desc">
                                 All products must be different and each product can <span>ONLY</span> be in one category:
                                 </p>
-                                <p className="duplication_conditions">
-                                    Product X <span> CAN </span> be nominated in <span>EITHER</span> Best CBD Edible <span>OR</span> Best CBD Flower.
-                                </p>
-                                <p className="duplication_conditions">
-                                    Product X <span> CANNOT </span> be nominated in <span>BOTH</span> Best CBD Edible <span>AND</span> Best CBD Flower.
-                                </p>
+                                <div className="duplication__conditions">
+                                    <div className="duplication__conditions__icon">■</div>
+                                    <p className="duplication__conditions__text">Product X <span> CAN </span> be nominated in <span>EITHER</span> Best CBD Edible <span>OR</span> Best CBD Flower.</p>
+                                </div>
+                                <div className="duplication__conditions">
+                                    <div className="duplication__conditions__icon">■</div>
+                                    <p className="duplication__conditions__text">Product X <span> CANNOT </span> be nominated in <span>BOTH</span> Best CBD Edible <span>AND</span> Best CBD Flower.</p>
+                                </div>
                             </div>
                         </li>
                         <li>
